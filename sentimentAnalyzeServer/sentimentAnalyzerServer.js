@@ -45,9 +45,9 @@ function getNLUInstance() {
     const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
         version: '2021-08-01',
         authenticator: new IamAuthenticator({
-         apikey: '{apikey}',
+         apikey: '{api_key}',
         }),
-        serviceUrl: '{url}',
+        serviceUrl: '{api_url}',
     });
 return naturalLanguageUnderstanding;
 }
